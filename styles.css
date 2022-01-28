@@ -1,0 +1,48 @@
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-family: var(--ff-chivo-fonts);
+  background-color: var(--background-color);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #2a2438;
+  --primary-color: #dbd8e3;
+  --secondary-color: #352f44;
+  --accent-color: #5c5470;
+
+  --ff-chivo-fonts: "Chivo", sans-serif;
+}
+h1
+/* Heading */
+.heading {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+.nick-name {
+  font-weight: bold;
+}
+.fab {
+  color: var(--primary-color);
+  padding: 0.5rem;
+}
+.fab:hover {
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+}
+.fas {
+  cursor: pointer;
+  color: var(--primary-color);
+}
