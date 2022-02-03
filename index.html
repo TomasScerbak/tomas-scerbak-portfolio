@@ -22,10 +22,15 @@
   <body>
     <header>
       <nav class="navigation-bar">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
           <a class="nick-name" href="index.html">DevTom</a>
         </div>
-        <div class="media-links">
+        <ul class="nav-list" data-aos="fade-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="media-links" data-aos="fade-left">
           <a href="https://github.com/TomasScerbak"
             ><i class="fab fa-github fa-2x"></i
           ></a>
@@ -34,19 +39,25 @@
             ><i class="fab fa-linkedin fa-2x"></i
           ></a>
         </div>
-        <div class="hamburger"><i class="fas fa-bars fa-1x"></i></div>
+        <div class="hamburger" data-aos="fade-left">
+          <i class="fas fa-bars fa-1x"></i>
+        </div>
       </nav>
     </header>
     <main>
       <section>
-        <div class="home" data-aos="fade-up" data-aos-delay="200">
+        <div class="home" data-aos="fade-up" data-aos-delay="300">
           <span>Hello, I'm</span>
           <h1>Tomas</h1>
           <h3>Frontend Developer</h3>
           <div class="author-image">
-            <img class="author__image" src="Images/T_15s.jpg" alt="" />
+            <img
+              class="author__image"
+              src="Images/T_15s.jpg"
+              alt="author image"
+            />
           </div>
-          <div class="home-buttons" data-aos="fade-left" data-aos-delay="200">
+          <div class="home-buttons" data-aos="fade-left" data-aos-delay="300">
             <a href="">Download CV</a>
             <a href="">About Me</a>
           </div>
