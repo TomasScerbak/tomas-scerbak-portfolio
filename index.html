@@ -16,26 +16,46 @@
     />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Tomas Scerbak Portfolio Webpage</title>
   </head>
   <body>
     <header>
+      <nav class="navigation-bar">
+        <div class="box">
+          <a class="nick-name" href="index.html">DevTom</a>
+        </div>
+        <div class="media-links">
+          <a href="https://github.com/TomasScerbak"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-%C5%A1%C4%8Derb%C3%A1k-54422765/"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+        <div class="hamburger"><i class="fas fa-bars fa-1x"></i></div>
+      </nav>
+    </header>
+    <main>
       <section>
-        <div class="heading">
-          <div class="nick-name">DevTom</div>
-          <div class="media-links">
-            <a href="https://github.com/TomasScerbak"
-              ><i class="fab fa-github fa-2x"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-%C5%A1%C4%8Derb%C3%A1k-54422765/"
-              ><i class="fab fa-linkedin fa-2x"></i
-            ></a>
+        <div class="home" data-aos="fade-up" data-aos-delay="200">
+          <span>Hello, I'm</span>
+          <h1>Tomas</h1>
+          <h3>Frontend Developer</h3>
+          <div class="author-image">
+            <img class="author__image" src="Images/T_15s.jpg" alt="" />
           </div>
-          <div class="hamburger"><i class="fas fa-bars"></i></div>
+          <div class="home-buttons" data-aos="fade-left" data-aos-delay="200">
+            <a href="">Download CV</a>
+            <a href="">About Me</a>
+          </div>
         </div>
       </section>
-    </header>
-    <main></main>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
