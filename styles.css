@@ -159,13 +159,13 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    animation: scale 1s;
   }
   .nav-list > li {
     padding-right: 2rem;
   }
   .nav-list > li:hover {
     transform: scale(1.1);
+    transition: 1s;
   }
 }
 /* Home */
