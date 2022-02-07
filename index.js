@@ -13,7 +13,7 @@ hamburger.addEventListener('click', () => {
 
 circle.addEventListener('click', () => {
     hamburger.classList.remove('is-hidden');
-    aboutMe.style.top = '10%'
+    aboutMe.style.top = '13%'
     circle.classList.add('is-hidden');
     navigationBar.classList.toggle('hidden-left');
 });

@@ -69,7 +69,7 @@ img {
 /* Home Section */
 .home {
   position: relative;
-  background-image: url(Images/boat.jpg);
+  background-image: url(Images/boat.jpeg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,6 +158,7 @@ img {
   text-align: center;
   align-items: center;
   justify-items: center;
+  top: 13%;
 }
 .box-one {
   padding-left: 2rem;
@@ -165,13 +166,13 @@ img {
 .box-two {
   text-align: center;
   margin-top: 2rem;
-  padding: 3rem;
 }
 .git {
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 .git--repo-box {
   position: absolute;
@@ -216,7 +217,7 @@ img {
 /* Section projects */
 .projects {
   position: relative;
-  background-image: url(Images/home.jpg);
+  background-image: url(Images/home.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -226,6 +227,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .project-heading {
   margin-top: 10rem;
@@ -241,6 +243,12 @@ img {
   border: 1px solid var(--primary-color);
   border-radius: 20px;
   transition: all 1s;
+  overflow: hidden;
+}
+.project-box > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .project-heading {
   margin-bottom: 5rem;
