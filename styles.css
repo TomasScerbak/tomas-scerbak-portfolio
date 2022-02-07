@@ -107,7 +107,7 @@ img {
   justify-content: center;
   color: var(--primary-color);
   cursor: pointer;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .circle:hover {
   color: var(--color-white);
