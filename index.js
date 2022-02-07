@@ -6,7 +6,7 @@ const aboutMe = document.querySelector('.about-me');
 
 hamburger.addEventListener('click', () => {
     navigationBar.classList.toggle('hidden-left');
-    aboutMe.style.top = '50%'
+    aboutMe.style.top = '45%'
     hamburger.classList.add('is-hidden');
     circle.classList.remove('is-hidden');
 });
