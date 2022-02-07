@@ -189,9 +189,10 @@ img {
 @media screen and (min-width: 700px) {
   .about-me {
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    position: absolute;
+    justify-items: auto;
     align-items: flex-start;
-    top: 45%;
+    top: 50%;
   }
   .box-two {
     margin-top: 0;
