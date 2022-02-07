@@ -226,7 +226,9 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+}
+.project-heading {
+  margin-top: 10rem;
 }
 .project-grid {
   display: grid;
