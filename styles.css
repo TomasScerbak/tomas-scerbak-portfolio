@@ -57,8 +57,8 @@ a:hover {
 img {
   width: 100%;
 }
-/* Section One */
-.section-one {
+/* Home Section */
+.home {
   position: relative;
   background-image: url(Images/boat.jpg);
   background-repeat: no-repeat;
@@ -90,7 +90,6 @@ img {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  padding: 1rem;
   cursor: pointer;
 }
 .hamburger:hover {
@@ -112,7 +111,6 @@ img {
 .nav-list {
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
 }
 @media screen and (min-width: 700px) {
 }
