@@ -21,17 +21,17 @@
   </head>
   <body>
     <header>
-      <section class="home">
+      <section id="about" class="home">
         <div class="hamburger"><i class="fas fa-bars"></i></div>
         <div class="circle">
           <i class="far fa-times-circle fa-lg is-hidden"></i>
         </div>
         <nav class="navigation--bar hidden-left">
           <ul class="nav-list">
-            <li><a href="index.html">About Me</a></li>
+            <li><a href="#about">About Me</a></li>
             <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
         <div class="about-me">
@@ -61,7 +61,7 @@
     </header>
     <main>
       <div class="break-line"></div>
-      <section class="projects">
+      <section id="project" class="projects">
         <h1 class="project-heading">Projects</h1>
         <div class="project-grid">
           <div class="project-box">
@@ -93,11 +93,11 @@
     </main>
     <footer>
       <div class="break-line"></div>
-      <section class="footer">
+      <section id="contact" class="footer">
         <ul class="footer-links">
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Projects</li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
         </ul>
         <h3 class="contact">Contact Me</h3>
         <form
