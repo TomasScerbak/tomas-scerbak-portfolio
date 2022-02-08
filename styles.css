@@ -173,7 +173,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 10%;
+  bottom: 10rem;
 }
 .git--repo-box {
   position: absolute;
@@ -231,7 +231,8 @@ img {
   cursor: pointer;
 }
 .project-heading {
-  margin-top: 5rem;
+  position: absolute;
+  top: 5rem;
 }
 .project-grid {
   display: grid;
