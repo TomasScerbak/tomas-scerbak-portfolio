@@ -230,11 +230,11 @@ img {
 }
 .project-heading {
   position: absolute;
-  top: 5rem;
+  top: 4rem;
 }
 .project-grid {
   position: absolute;
-  top: 15rem;
+  top: 12rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
@@ -321,4 +321,18 @@ img {
 .btn:hover {
   background-color: var(--color-white);
   color: var(--secondary-color);
+}
+.footer-links {
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  left: 6rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.footer-links > li {
+  margin-right: 2rem;
+}
+.footer-links > li:hover {
+  color: var(--color-white);
 }
