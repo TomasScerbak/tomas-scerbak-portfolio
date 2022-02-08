@@ -173,7 +173,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 5rem;
+  bottom: 7rem;
 }
 .git--repo-box {
   width: 5rem;
@@ -297,7 +297,7 @@ img {
 .media-links {
   position: absolute;
   bottom: 4rem;
-  left: 10.5rem;
+  left: 10.2rem;
 }
 .fab {
   color: var(--color-white);
