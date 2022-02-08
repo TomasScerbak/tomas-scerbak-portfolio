@@ -47,6 +47,12 @@ p {
   h2 {
     font-size: 3rem;
   }
+  h3 {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
 }
 /* Links */
 ul,
@@ -138,7 +144,6 @@ img {
     background-color: none;
     height: 5%;
     margin-top: 0;
-    position: fixed;
   }
   .nav-list {
     flex-direction: row;
@@ -189,14 +194,21 @@ img {
 @media screen and (min-width: 700px) {
   .about-me {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 40rem;
     position: absolute;
     justify-items: auto;
     align-items: flex-start;
     top: 25rem;
   }
+  .box-one {
+    margin: auto;
+  }
   .box-two {
     margin-top: 0;
     padding: 0;
+    grid-row: 2;
+    grid-column: -2;
+    margin: auto;
   }
   .git--repo-box {
     bottom: 10%;
@@ -288,14 +300,14 @@ img {
 .contact {
   position: absolute;
   top: 14rem;
-  left: 4rem;
+  left: 5rem;
   color: var(--primary-color);
 }
 .footer-links {
   display: flex;
   position: absolute;
   top: 7rem;
-  left: 7rem;
+  left: 8rem;
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -327,7 +339,7 @@ img {
 .media-links {
   position: absolute;
   bottom: 4rem;
-  left: 10.2rem;
+  left: 11rem;
 }
 .fab {
   color: var(--color-white);
@@ -351,4 +363,22 @@ img {
 .btn:hover {
   background-color: var(--color-white);
   color: var(--secondary-color);
+}
+@media screen and (min-width: 700px) {
+  .footer-links {
+    font-size: 2.5rem;
+    top: 18rem;
+    left: 23rem;
+  }
+  .contact {
+    top: 39.5rem;
+    left: 13rem;
+  }
+  .form {
+    bottom: 25rem;
+    left: 38rem;
+  }
+  .media-links {
+    left: 30rem;
+  }
 }
