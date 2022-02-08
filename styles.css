@@ -192,7 +192,7 @@ img {
     position: absolute;
     justify-items: auto;
     align-items: flex-start;
-    top: 25%;
+    top: 25rem;
   }
   .box-two {
     margin-top: 0;
@@ -205,6 +205,9 @@ img {
   .box-one,
   .box-two {
     text-align: left;
+  }
+  .git {
+    bottom: 15rem;
   }
 }
 /* Break line */
@@ -238,7 +241,6 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  margin-bottom: 5rem;
 }
 .project-box {
   width: 10rem;
@@ -261,8 +263,16 @@ img {
   transform: scale(1.1);
 }
 @media screen and (min-width: 700px) {
+  .project-heading {
+    top: 10rem;
+  }
   .project-grid {
     grid-template-columns: repeat(3, 1fr);
+    top: 25rem;
+  }
+  .project-box {
+    width: 15rem;
+    height: 15rem;
   }
 }
 /* Footer Section */
@@ -274,6 +284,26 @@ img {
   object-fit: cover;
   height: 100vh;
   width: 100%;
+}
+.contact {
+  position: absolute;
+  top: 14rem;
+  left: 4rem;
+  color: var(--primary-color);
+}
+.footer-links {
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.footer-links > li {
+  margin-right: 2rem;
+}
+.footer-links > li:hover {
+  color: var(--color-white);
 }
 .form {
   position: absolute;
@@ -321,18 +351,4 @@ img {
 .btn:hover {
   background-color: var(--color-white);
   color: var(--secondary-color);
-}
-.footer-links {
-  display: flex;
-  position: absolute;
-  top: 7rem;
-  left: 6rem;
-  color: var(--primary-color);
-  cursor: pointer;
-}
-.footer-links > li {
-  margin-right: 2rem;
-}
-.footer-links > li:hover {
-  color: var(--color-white);
 }
