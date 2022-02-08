@@ -173,15 +173,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 10rem;
+  bottom: 5rem;
 }
 .git--repo-box {
-  position: absolute;
   width: 5rem;
   height: 5rem;
   border-radius: 10px;
   border: 1px solid var(--color-white);
-  bottom: 5%;
   padding: 3rem 7rem;
   white-space: nowrap;
   display: flex;
@@ -235,14 +233,16 @@ img {
   top: 5rem;
 }
 .project-grid {
+  position: absolute;
+  top: 15rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   margin-bottom: 5rem;
 }
 .project-box {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   border: 1px solid var(--primary-color);
   border-radius: 20px;
   transition: all 1s;
@@ -281,8 +281,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  bottom: 15rem;
-  left: 3rem;
+  bottom: 11rem;
+  left: 4rem;
 }
 .form > input {
   margin-bottom: 1rem;
@@ -296,8 +296,8 @@ img {
 }
 .media-links {
   position: absolute;
-  bottom: 5%;
-  left: 26%;
+  bottom: 4rem;
+  left: 10.5rem;
 }
 .fab {
   color: var(--color-white);
