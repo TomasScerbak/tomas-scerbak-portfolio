@@ -383,6 +383,14 @@ img {
   transition: all 1s;
   overflow: hidden;
 }
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-link:hover {
+  color: var(--primary-color);
+}
 .project-box > img {
   object-fit: cover;
   width: 100%;
