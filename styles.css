@@ -280,15 +280,15 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  top: 35%;
-  left: 8%;
+  bottom: 15rem;
+  left: 3rem;
 }
 .form > input {
   margin-bottom: 1rem;
   border-radius: 20px;
   outline: none;
   border: none;
-  padding: 1rem 7rem 1rem 1rem;
+  padding: 1rem 6rem 1rem 1rem;
 }
 .form > textarea {
   margin-bottom: 1rem;
