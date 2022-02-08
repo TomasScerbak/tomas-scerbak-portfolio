@@ -172,6 +172,9 @@ img {
   text-align: center;
   margin-top: 2rem;
 }
+.box-article {
+  padding: 1rem;
+}
 .git {
   position: absolute;
   width: 100vw;
