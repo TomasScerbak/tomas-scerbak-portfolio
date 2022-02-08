@@ -505,3 +505,22 @@ img {
     left: 30rem;
   }
 }
+@media screen and (min-width: 1000px) {
+  .footer-links {
+    flex-direction: column;
+    font-size: 3.5rem;
+    top: 35rem;
+    left: 35rem;
+  }
+  .contact {
+    top: 20rem;
+    left: 75rem;
+  }
+  .form {
+    bottom: 25rem;
+    left: 75rem;
+  }
+  .media-links {
+    left: 62rem;
+  }
+}
