@@ -358,6 +358,7 @@ img {
   .skill-list {
     top: 25rem;
     left: 70rem;
+    width: 50rem;
   }
   .fa-star {
     width: 5rem;
