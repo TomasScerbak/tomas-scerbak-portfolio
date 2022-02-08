@@ -280,11 +280,11 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 18rem;
-  left: 7rem;
+  top: 15rem;
+  left: 1.7rem;
   border: 1px solid white;
   border-radius: 30px;
-  width: 50rem;
+  width: 35rem;
   height: 42rem;
   background-color: black;
 }
